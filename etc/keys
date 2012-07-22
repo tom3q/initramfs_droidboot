@@ -1,0 +1,17 @@
+# /etc/keys - hardware keys configuration
+# function	keycode
+
+# Boot menu key chord
+BOOTMENU	209 # Vol down
+BOOTMENU	219 # Call
+BOOTMENU	249 # End call
+
+# In-menu keys
+UP		201 # Vol up
+UP		202 # Dpad up
+DOWN		209 # Vol down
+DOWN		210 # Dpad down
+ENTER		204 # Dpad center
+ENTER		219 # Call
+BACK		212 # Back
+BACK		249 # End call

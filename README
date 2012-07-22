@@ -1,0 +1,6 @@
+The list of files to be included in resulting initramfs image is located
+in initramfs_list.
+
+An environment variable INITRAMFS_SOURCE_PATH needs to contain path
+to the directory containing all the source files before starting kernel
+compilation.
