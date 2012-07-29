@@ -6,6 +6,7 @@ dir /dev 0755 0 0
 dir /tmp 0755 0 0
 dir /etc 0755 0 0
 dir /bin 0755 0 0
+dir /res 0755 0 0
 file /default.prop ${INITRAMFS_SOURCE_PATH}/default.prop 0644 0 0
 file /init.rc ${INITRAMFS_SOURCE_PATH}/init.rc 0644 0 0
 file /ueventd.rc ${INITRAMFS_SOURCE_PATH}/ueventd.rc 0644 0 0
@@ -18,6 +19,23 @@ file /sbin/recovery ${INITRAMFS_SOURCE_PATH}/sbin/recovery 0755 0 0
 file /sbin/kexec ${INITRAMFS_SOURCE_PATH}/sbin/kexec 0755 0 0
 slink /sbin/droidboot /sbin/recovery 0755 0 0
 slink /sbin/ueventd /init 0755 0 0
+
+# /res
+dir /res/images 0755 0 0
+file /res/images/icon_clockwork.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_clockwork.png 0644 0 0
+file /res/images/indeterminate1.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate1.png 0644 0 0
+file /res/images/indeterminate2.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate2.png 0644 0 0
+file /res/images/indeterminate3.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate3.png 0644 0 0
+file /res/images/indeterminate4.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate4.png 0644 0 0
+file /res/images/indeterminate5.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate5.png 0644 0 0
+file /res/images/indeterminate6.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate6.png 0644 0 0
+file /res/images/icon_error.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_error.png 0644 0 0
+file /res/images/icon_installing.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_installing.png 0644 0 0
+file /res/images/progress_fill.png ${INITRAMFS_SOURCE_PATH}/res/images/progress_fill.png 0644 0 0
+file /res/images/progress_empty.png ${INITRAMFS_SOURCE_PATH}/res/images/progress_empty.png 0644 0 0
+file /res/images/icon_firmware_install.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_firmware_install.png 0644 0 0
+file /res/images/icon_firmware_error.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_firmware_error.png 0644 0 0
+file /res/keys ${INITRAMFS_SOURCE_PATH}/res/keys 0644 0 0
 
 # /etc
 file /etc/chords ${INITRAMFS_SOURCE_PATH}/etc/chords 0644 0 0
