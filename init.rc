@@ -36,7 +36,7 @@ service console /sbin/sh
 on property:ro.secure=0
     start console
 
-service bootdroid /sbin/bootdroid
+service droidboot /sbin/droidboot
 
 # adbd is always enabled
 service adbd /sbin/adbd
