@@ -14,6 +14,9 @@ loglevel 3
 # create mountpoints
     mkdir /boot 0755 system system
 
+on fs
+    ubiattach mtd@boot 4
+
 on boot
 # basic network init
     ifup lo
