@@ -41,6 +41,7 @@ file /res/keys ${INITRAMFS_SOURCE_PATH}/res/keys 0644 0 0
 file /etc/chords ${INITRAMFS_SOURCE_PATH}/etc/chords 0644 0 0
 file /etc/bootables ${INITRAMFS_SOURCE_PATH}/etc/bootables 0644 0 0
 file /etc/tunables ${INITRAMFS_SOURCE_PATH}/etc/tunables 0644 0 0
+file /etc/recovery.fstab ${INITRAMFS_SOURCE_PATH}/etc/recovery.fstab 0644 0 0
 
 # Busybox
 file /bin/busybox ${INITRAMFS_SOURCE_PATH}/bin/busybox 6755 0 0
