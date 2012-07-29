@@ -19,8 +19,9 @@ file /sbin/kexec ${INITRAMFS_SOURCE_PATH}/sbin/kexec 0755 0 0
 slink /sbin/ueventd /init 0755 0 0
 
 # /etc
-file /etc/keys ${INITRAMFS_SOURCE_PATH}/etc/keys 0644 0 0
+file /etc/chords ${INITRAMFS_SOURCE_PATH}/etc/chords 0644 0 0
 file /etc/bootables ${INITRAMFS_SOURCE_PATH}/etc/bootables 0644 0 0
+file /etc/tunables ${INITRAMFS_SOURCE_PATH}/etc/tunables 0644 0 0
 
 # Busybox
 file /bin/busybox ${INITRAMFS_SOURCE_PATH}/bin/busybox 6755 0 0

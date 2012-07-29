@@ -1,6 +1,5 @@
 # /etc/bootables - list of available booting sources
-# First position is default
+# First entry is used as default.
 # Label		Path
-"Normal boot"	mtd@boot/ubi@0/ubifs@boot.img
-"Recovery"	mtd@boot/ubi@0/ubifs@recovery.img
-"Custom"	block@mmcblk0p1/auto@*.img
+"Normal boot"	/boot/boot.img
+"Recovery"	/boot/recovery.img

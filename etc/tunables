@@ -1,0 +1,9 @@
+# /etc/tunables - list of available kernel command line switches
+# Value of "" means that the switch will not be included in command line.
+# A switch with no values works as a binary switch, the name is either included
+# or not included in command line.
+# Label		Name		Value1		Value2		Value3		...
+"Clock config"	"clock_config"	""		"ahb166"	"ahb166sync"		# 2 values + disabled
+"Example 1"	"example1"								# Binary
+"Example 2"	"example2"	"constant"						# Constant
+"Example 3"	"example3"	1		2		3		4	# 4 values

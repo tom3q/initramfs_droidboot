@@ -1,0 +1,7 @@
+# /etc/keys - hardware keys configuration
+# Chord 0 is always used for boot menu.
+# Chord N is used to boot N'th position of boot menu (starting from 0).
+# Position 0 does not need a key chord as it's default.
+# key1	key2	key3	...
+201	219	249	# Vol up + Call + End call
+209	219	249	# Vol down + Call + End call
