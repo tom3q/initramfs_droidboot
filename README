@@ -1,3 +1,7 @@
+This is a sample skeleton of initramfs required for DroidBoot.
+
+Kexec and DroidBoot recovery binaries must be placed in sbin/ subdirectory.
+
 The list of files to be included in resulting initramfs image is located
 in initramfs_list.
 
